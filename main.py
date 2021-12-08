@@ -10,7 +10,7 @@ from random import randint
 class Form(QMainWindow):
     def __init__(self):
         super().__init__()
-        uic.loadUi('git2.ui', self)
+        uic.loadUi('UI.ui', self)
         self.pushButton.clicked.connect(self.paintcircle)
         self.should_paint_circle = False
 
