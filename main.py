@@ -1,9 +1,9 @@
 import sys
-from PyQt5.QtWidgets import QApplication, QMainWindow,QPushButton,QWidget
+from PyQt5.QtWidgets import QApplication, QMainWindow, QPushButton, QWidget
 from PyQt5 import QtGui
 from PyQt5 import uic
-from PyQt5.QtCore import QRect, Qt
-from PyQt5.QtGui import QPainter,QBrush, QPen
+from PyQt5.QtCore import Qt
+from PyQt5.QtGui import QPainter, QPen
 from random import randint
 
 
